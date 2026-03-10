@@ -8,14 +8,6 @@ body {
   animation: fadeInBody 1s ease-in;
 }
 
-.flyer {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 16px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-  animation: slideInFlyer 1.2s ease-out;
 }
 
 /* Header */
@@ -72,40 +64,6 @@ ul li {
   padding-left: 1.5rem;
   position: relative;
   transition: transform 0.3s ease, color 0.3s ease;
-}
-
-ul li::before {
-  content: "🌟";
-  position: absolute;
-  left: 0;
-}
-.details ul li::before {
-  content: "😁";
-  position: absolute;
-  left: 0;
-}
-.highlights ul li::before {
-  content: "✌️";
-  position: absolute;
-  left: 0;
-}
-.leaders ul li::before {
-  content: "❤️";
-  position: absolute;
-  left: 0;
-}
-
-ul li:hover {
-  transform: translateX(8px);
-  color: #ffcc80;
-}
-
-/* Links */
-a {
-  color: #ffab91;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
 }
 
 a:hover {
