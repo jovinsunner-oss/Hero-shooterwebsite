@@ -71,7 +71,8 @@ body {
 .1image {
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 100px;
+  width: 100px;
 }
 @keyframes fadeInSection {
   from { opacity: 0; transform: translateY(10px); }
