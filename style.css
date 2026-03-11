@@ -68,18 +68,12 @@ a:hover {
 body {
   bbackground: url('file-pokeball-png-0.png') no-repeat center center fixed;
 }
-
-/* Animations */
-@keyframes fadeInBody {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.1image {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
-
-@keyframes slideInFlyer {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 @keyframes fadeInSection {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
