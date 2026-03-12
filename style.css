@@ -71,10 +71,10 @@ body, html {
   margin: 0; /* Removes default body margin */
 }
 .container {
-  display: flex; /* Activates Flexbox on the parent */
-  justify-content: center; /* Centers content horizontally along the main axis */
-  align-items: center; /* Centers content vertically along the cross axis */
-  height: 100%; /* Ensures the container fills the full height of the viewport */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
 }
 
 .centered-element {
