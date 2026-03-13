@@ -1,7 +1,7 @@
 /* Background and layout */
 body {
   margin: 0;
-  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-family: 'Segoe UI', 'Iosevka Charon Mono', sans-serif;
   background: url('650chespin1920x1200.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
@@ -13,10 +13,6 @@ header img {
   margin: 0.5rem;
 }
 
-/* Sections */
-section {
-  margin-bottom: 2rem;
-  animation: fadeInSection 1.5s ease;
 }
 
 h3 {
@@ -34,10 +30,7 @@ h3 {
   padding-bottom: 0.3rem;
   background-color: brown;
 {
-a:hover {
-  color: #ff7043;
-  text-decoration: underline;
-}
+
 .image {
   background-size: cover;
   background-position: center;
